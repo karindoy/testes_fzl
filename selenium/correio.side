@@ -1,0 +1,241 @@
+{
+  "id": "080c5e30-86e7-4d65-abbd-78d9c12a66aa",
+  "version": "2.0",
+  "name": "correio",
+  "url": "http://www.buscacep.correios.com.br",
+  "tests": [{
+    "id": "602d8e94-1b72-49c8-bd1d-6765c19f9102",
+    "name": "UC01ConsultaCEP",
+    "commands": [{
+      "id": "1ec755a6-45b2-46c7-b6ff-6750738d2246",
+      "comment": "",
+      "command": "open",
+      "target": "/sistemas/buscacep/buscaCep.cfm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91bc851a-adff-4d3d-9bc2-1405c39babbf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d75846b-13d0-4643-b1a9-9ed7b9aa84ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=UF",
+      "targets": [
+        ["name=UF", "name"],
+        ["css=.f1col", "css:finder"],
+        ["xpath=//select[@name='UF']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[2]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'AC\nAL\nAM\nAP\nBA\nCE\nDF\nES\nGO\nMA\nMG\nMS\nMT\nPA\nPB\nPE\nPI\nPR\nRJ\nRN\nRO\nRR\nRS\nSC\nSE\nSP\nTO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bbd9f1f-1817-42ab-b441-680da3996aae",
+      "comment": "",
+      "command": "click",
+      "target": "name=UF",
+      "targets": [
+        ["name=UF", "name"],
+        ["css=.f1col", "css:finder"],
+        ["xpath=//select[@name='UF']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[2]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'AC\nAL\nAM\nAP\nBA\nCE\nDF\nES\nGO\nMA\nMG\nMS\nMT\nPA\nPB\nPE\nPI\nPR\nRJ\nRN\nRO\nRR\nRS\nSC\nSE\nSP\nTO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b10b5fdf-db41-43fc-8797-d498b1ffab51",
+      "comment": "",
+      "command": "click",
+      "target": "name=UF",
+      "targets": [
+        ["name=UF", "name"],
+        ["css=.f1col", "css:finder"],
+        ["xpath=//select[@name='UF']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[2]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'AC\nAL\nAM\nAP\nBA\nCE\nDF\nES\nGO\nMA\nMG\nMS\nMT\nPA\nPB\nPE\nPI\nPR\nRJ\nRN\nRO\nRR\nRS\nSC\nSE\nSP\nTO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b053ee-f82b-4a66-9aa9-8d238ecbcfa6",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=UF",
+      "targets": [
+        ["name=UF", "name"],
+        ["css=.f1col", "css:finder"],
+        ["xpath=//select[@name='UF']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[2]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'AC\nAL\nAM\nAP\nBA\nCE\nDF\nES\nGO\nMA\nMG\nMS\nMT\nPA\nPB\nPE\nPI\nPR\nRJ\nRN\nRO\nRR\nRS\nSC\nSE\nSP\nTO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "986c4e0b-a865-4d02-aacf-84d47defb9a1",
+      "comment": "",
+      "command": "select",
+      "target": "name=UF",
+      "targets": [],
+      "value": "label=SP"
+    }, {
+      "id": "f9cd3a8e-cdf4-464c-a7e9-6a20ab934ac4",
+      "comment": "",
+      "command": "click",
+      "target": "name=UF",
+      "targets": [
+        ["name=UF", "name"],
+        ["css=.f1col", "css:finder"],
+        ["xpath=//select[@name='UF']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[2]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'AC\nAL\nAM\nAP\nBA\nCE\nDF\nES\nGO\nMA\nMG\nMS\nMT\nPA\nPB\nPE\nPI\nPR\nRJ\nRN\nRO\nRR\nRS\nSC\nSE\nSP\nTO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51c1ec80-81e1-4f0f-a9ae-14cbfe405403",
+      "comment": "",
+      "command": "click",
+      "target": "name=Localidade",
+      "targets": [
+        ["name=Localidade", "name"],
+        ["css=.f6col", "css:finder"],
+        ["xpath=//input[@name='Localidade']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[3]/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7630a2a-22ec-4ff3-9820-0b25e686c262",
+      "comment": "",
+      "command": "type",
+      "target": "name=Localidade",
+      "targets": [
+        ["name=Localidade", "name"],
+        ["css=.f6col", "css:finder"],
+        ["xpath=//input[@name='Localidade']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[3]/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Sao Paulo"
+    }, {
+      "id": "eb5e9990-1322-429a-abc8-0e9e5dce7972",
+      "comment": "",
+      "command": "click",
+      "target": "name=Tipo",
+      "targets": [
+        ["name=Tipo", "name"],
+        ["css=span:nth-child(7) .f2col", "css:finder"],
+        ["xpath=//select[@name='Tipo']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[4]/label/select", "xpath:idRelative"],
+        ["xpath=//span[4]/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc5353cf-b8c3-4a34-b1a7-e153dda0131f",
+      "comment": "",
+      "command": "select",
+      "target": "name=Tipo",
+      "targets": [],
+      "value": "label=Rua"
+    }, {
+      "id": "f890b4fb-5cd7-4d28-9edd-bf5fe123a088",
+      "comment": "",
+      "command": "click",
+      "target": "name=Tipo",
+      "targets": [
+        ["name=Tipo", "name"],
+        ["css=span:nth-child(7) .f2col", "css:finder"],
+        ["xpath=//select[@name='Tipo']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[4]/label/select", "xpath:idRelative"],
+        ["xpath=//span[4]/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90fa7b0b-b9d2-43be-bee0-802937b75b7b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Logradouro",
+      "targets": [
+        ["name=Logradouro", "name"],
+        ["css=.f4col", "css:finder"],
+        ["xpath=//input[@name='Logradouro']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[5]/label/input", "xpath:idRelative"],
+        ["xpath=//span[5]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd12ad9f-57fe-43a6-8929-33d8a68e5a82",
+      "comment": "",
+      "command": "type",
+      "target": "name=Logradouro",
+      "targets": [
+        ["name=Logradouro", "name"],
+        ["css=.f4col", "css:finder"],
+        ["xpath=//input[@name='Logradouro']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/span[5]/label/input", "xpath:idRelative"],
+        ["xpath=//span[5]/label/input", "xpath:position"]
+      ],
+      "value": "Frei Joao"
+    }, {
+      "id": "20beb616-cad1-4ba6-9553-c1c4df352c3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn2",
+      "targets": [
+        ["css=.btn2", "css:finder"],
+        ["xpath=//input[@value='Buscar']", "xpath:attributes"],
+        ["xpath=//form[@id='Geral']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "755fa8de-2ded-49ec-a831-af47d34c07f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'DADOS ENCONTRADOS COM SUCESSO.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "777d3a7f-127f-4c12-a7dc-1148fad908c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content:nth-child(2)",
+      "targets": [
+        ["css=.content:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e0f9610-c7dc-4433-a99f-dd34a737e28c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'DADOS ENCONTRADOS COM SUCESSO.')]", "xpath:innerText"]
+      ],
+      "value": "DADOS ENCONTRADOS COM SUCESSO."
+    }]
+  }],
+  "suites": [{
+    "id": "c6c4781c-02ec-4872-a7c5-7947926c76cc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["602d8e94-1b72-49c8-bd1d-6765c19f9102"]
+  }],
+  "urls": ["http://www.buscacep.correios.com.br/"],
+  "plugins": []
+}
